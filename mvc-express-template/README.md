@@ -6,7 +6,7 @@
 
 # Things to add
 
-- Create a `.env` file in config folder and add the following as `key = value`
+- Create a `.env` file in root folder (same level with `package.json`) and add the following as `key - value` pairs
   - PORT = 2121 (can be any port example: 3000)
   - DB_STRING = `your database URI`
   - CLOUD_NAME = `your cloudinary cloud name`
@@ -17,4 +17,6 @@
 
 # Run
 
-`npm start`
+```zsh
+npm start # or npm run dev
+```
